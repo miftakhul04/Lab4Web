@@ -1,0 +1,67 @@
+/* navigasi */
+nav {
+  display: block;
+  background-color: #2008f8;
+}
+nav a {
+  padding: 10px 30px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a.active,
+nav a:hover {
+  background-color: #f8413b;
+}
+body {
+  background-image: url("856.jpg");
+  background-color: rgb(249, 250, 242);
+  height: 600;
+  width: 800;
+}
+.contact-form {
+  width: 85%;
+  max-width: 600px;
+  background: #fafafa;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20 px 40px;
+  box-sizing: border-box;
+  font-weight: 200;
+}
+.txtb {
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+}
+.txtb label {
+  display: block;
+  text-align: left;
+  color: rgb(10, 45, 241);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.txtb input,
+txtb textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.btn {
+  display: inline-block;
+  background: #1408c2;
+  padding: 14px 0;
+  color: white;
+  text-align-last: center;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+}
